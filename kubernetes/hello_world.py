@@ -2,6 +2,7 @@ from pyspark.sql import SparkSession
 
 def main():
     # Create a Spark session
+    print("Running Hello World Spark")
     spark = SparkSession.builder.appName("HelloWorld").getOrCreate()
 
     # Create a DataFrame with a single column "greeting"
